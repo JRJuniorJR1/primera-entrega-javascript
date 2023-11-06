@@ -1,0 +1,40 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(198, 133, 252);
+}
+
+.container {
+  text-align: center;
+}
+
+.center {
+  display: inline-block;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+h1, p {
+  text-align: center;
+  align-items: center;
+  text-decoration-color: #0056b3;
+}
+
+/*# sourceMappingURL=styles.css.map */
