@@ -40,9 +40,9 @@ do {
             default:
                 alert("Opción incorrecta");
         }
-    } else if (opcion !== "0") {
+    } else if (opcion !== "x") {
         alert("Opción no válida. Ingrese +, -, *, / ó x para finalizar.");
     }
-} while (opcion !== "0");
+} while (opcion !== "x");
 
 console.log(numero)
