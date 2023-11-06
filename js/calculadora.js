@@ -41,7 +41,7 @@ do {
                 alert("Opción incorrecta");
         }
     } else if (opcion !== "0") {
-        alert("Opción no válida. Ingrese +, -, *, / o 0 para finalizar.");
+        alert("Opción no válida. Ingrese +, -, *, / ó x para finalizar.");
     }
 } while (opcion !== "0");
 
